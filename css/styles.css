@@ -1,0 +1,247 @@
+     body {
+            
+            text-align: center;
+        }
+        h1 {
+            padding: 32px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #999;
+            border-radius: 4px;
+            display: inline-block;
+            height: 1px;
+            width: 300px;
+            margin: 10px;
+        }
+        img {
+            width: 100%;
+            height: 200px;
+            margin-top: 0;
+        }
+        .card-1 {
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+        }
+        .card:hover img {
+            transition: .3s transform;
+            transform: scale(1.03, 1.03);
+        }
+        
+            input[type=submit],button {
+
+background-color: palegoldenrod;
+
+color: white;
+
+padding: 12px 20px;
+
+border: none;
+
+border-radius: 4px;
+
+cursor: pointer;
+
+float: center;
+margin :5px;
+
+}
+
+
+
+input[type=submit]:hover,button:hover {
+
+background-color: #45a049;
+
+}
+.row:after {
+
+content: "";
+
+display: table;
+
+clear: both;
+
+}
+
+.row:after {
+
+content: "";
+
+display: table;
+
+clear: both;
+
+}
+
+
+.box {
+		padding: 2em ;
+		background: #FFF;
+		text-align: center;
+		border-radius: 6px 6px 6px 6px;
+    }
+    .image {
+		border: 0;
+		position: relative;
+	}
+
+		.image.fit {
+			display: block;
+			
+		}
+
+			.image.fit img {
+				display: block;
+				width: 100%;
+				
+			}
+
+		.image.feature {
+			display: block;
+			margin: 0 0 2em 0;
+			
+		}
+
+			.image.feature img {
+				display: block;
+				width: 100%;
+				margin-right: 100px;
+			}
+
+		.image.featured {
+			position: static;
+			display: block;
+			margin: 0;
+		}
+
+			.image.featured img {
+				display: block;
+				width: 100%;
+            }
+            .container {
+		margin-left: auto;
+		margin-right: auto;
+		
+		
+		width: 1200px;
+	}
+
+	
+	
+		.container.small {
+	
+			width: 900px;
+		}
+
+		.container.big {
+			width: 100%;
+
+	
+			max-width: 1500px;
+
+	
+			min-width: 1200px;
+		}
+
+
+
+	
+    .\31 2u { width: 100% }
+	.\31 1u { width: 91.6666666667% }
+	.\31 0u { width: 83.3333333333% }
+	.\39 u { width: 75% }
+	.\38 u { width: 66.6666666667% }
+	.\37 u { width: 58.3333333333% }
+	.\36 u { width: 50% }
+	.\35 u { width: 41.6666666667% }
+	.\34 u { width: 33.3333333333% }
+	.\33 u { width: 25% }
+	.\32 u { width: 16.6666666667% }
+	.\31 u { width: 8.3333333333% }
+	.\-11u { margin-left: 91.6666666667% }
+	.\-10u { margin-left: 83.3333333333% }
+	.\-9u { margin-left: 75% }
+	.\-8u { margin-left: 66.6666666667% }
+	.\-7u { margin-left: 58.3333333333% }
+	.\-6u { margin-left: 50% }
+	.\-5u { margin-left: 41.6666666667% }
+	.\-4u { margin-left: 33.3333333333% }
+	.\-3u { margin-left: 25% }
+	.\-2u { margin-left: 16.6666666667% }
+	.\-1u { margin-left: 8.3333333333% }
+	
+
+		.row > * {
+			float: left;
+		}
+
+		.row:after {
+			content: '';
+			display: block;
+			clear: both;
+			height: 0;
+		}
+
+		.row:first-child > * {
+			padding-top: 0 !important;
+        }
+        
+			
+    .main{
+		text-align: center;
+        margin-top:50px;
+        margin-bottom:100px;
+	}
+	.bg{
+		width: auto; 
+    max-width: 400px;
+    max-height: 300px;
+	}
+    html { 
+  background: url(../image/bbackground.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.topnav {
+                
+                overflow: hidden;
+                margin-top:0px;
+            }
+            .topnav {
+                /* background-color: #333; */
+                overflow: hidden;
+                margin-top:0px;
+            }
+            /* Style the links inside the navigation bar */
+            .topnav a {
+              float: left;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            .topnav a {
+              float: center;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 17px;
+            }
+            /* Change the color of links on hover */
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+            /* Add a color to the active/current link */
+            .topnav a.active {
+              background-color:darkturquoise;
+              color: black;
+            }
+            /* Right-aligned section inside the top navigation */
+            .topnav-right {
+              float: right;
+            }  

@@ -1,0 +1,130 @@
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .divider {
+      margin: 0.5em 0 0.5em 0;
+      border: 0;
+      height: 1px;
+      width: 100%;
+      display: block;
+      background-color: #4f6fad;
+      background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+    }        
+    input[type=text], input[type=email], select, textarea,input[type=password] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+
+    label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+    }
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+    </head>
+    <body>
+        <h2>새로운 메세지</h2>
+        <p>문의사항 또는 느낀점을 남겨주세요.</p>
+        <div class="divider"></div>
+        <div class="container">
+          <form action="newcontact_proc.php" method="post">
+            <div class="row">
+              <div class="col-25">
+                <label for="title">제목</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="title" placeholder="Title..">
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                  <label for="title">비밀번호</label>
+                </div>
+                <div class="col-75">
+                  <input type="password" name="pwd" placeholder="Title..">
+                </div>
+              </div>
+
+            <div class="row">
+              <div class="col-25">
+                <label for="name">이름</label>
+              </div>
+              <div class="col-75">
+                <input type="text" name="name" placeholder="User name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">이메일</label>
+              </div>
+              <div class="col-75">
+                <input type="email" name="email" placeholder="Email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="msg">메세지</label>
+              </div>
+              <textarea name="msg" cols="80" rows="10" placeholder="Message.."></textarea>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+    </body>
+</html>
